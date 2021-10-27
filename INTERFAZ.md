@@ -1,4 +1,7 @@
+
 # INTERFAZ CON LA QUE BUSCAR LOGS A PARTIR DE LA FECHA
+
+![Captura](https://user-images.githubusercontent.com/72084639/139121877-2ac4d670-c65c-46ce-920a-31509090961c.PNG)
 
 ```html
 !DOCTYPE html>
