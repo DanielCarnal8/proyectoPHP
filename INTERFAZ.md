@@ -13,12 +13,13 @@
     
     <style>
         h1.h1{text-align: center; color: white; margin-top: 3%; font-size: 50px;}
-        div.semana{text-align: center; color: black; font-size: 22px;}
+        div.año{text-align: center; color: black; font-size: 22px;}
         div.mes{text-align: center; color: black; font-size: 22px;}
-        div.dias{text-align: center; color: black; font-size: 22px;}
+        div.dia{text-align: center; color: black; font-size: 22px;}
         div.pweb{text-align: left; color: black; font-size: 15px; float: right; position: relative; bottom:-430px ;}
         div.boton{text-align: center; color: black;  }
-        body {background-color:goldenrod }
+        div.ventanita{text-align: center; size: 25%; position: relative;}
+        body {background-color: #B4F6A0 }
         img.andel 
         {
          float: left ;
@@ -34,20 +35,17 @@
     <title>Logs de XAMPP</title>
     <h1 class="h1">Logs de XAMPP</h1>
             
-    <form action="proyecto.php" method="post">
+    <form action="proyecto.php" method="post" target="ventana">
         
             <div class="cuadro">
                  
-            <div class="semana">
-                    <b>Día de la semana</b>     
-                        <select name="dia">
-                            <option value="Mon"> Mon </option>
-                            <option value="Tue"> Tue </option>
-                            <option value="Wed"> Wed </option>
-                            <option value="Thu"> Thu </option>
-                            <option value="Fri"> Fri </option>
-                            <option value="Sat"> Sat </option>
-                            <option value="Sun"> Sun </option>
+            <div class="año">
+                    <b>Año</b>     
+                        <select name="años">
+                            <option value="2022"> 2022 </option>
+                            <option value="2021"> 2021 </option>
+                            <option value="2020"> 2020 </option>
+                            <option value="2019"> 2019 </option>
                         </select><br>
             </div>
                 
@@ -69,7 +67,7 @@
                         </select><br>
             </div>
 
-            <div class="dias">
+            <div class="dia">
                     <b>Día del año</b>
                         <select name="dias">
                             <option value="01"> 1 </option>
@@ -109,6 +107,10 @@
                     <input type="submit" value="BUSCAR">
             </div>
     </form>
+
+    <div class="ventanita">
+    <iframe name="ventana" src="proyecto.php" width="800" height="300" style="background-color: #e9cbf8;"></iframe>
+    </div>
 
     <div class="pweb"> 
         <p>Página del desarrollador
