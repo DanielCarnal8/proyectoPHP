@@ -1,3 +1,4 @@
+![Captura3](https://user-images.githubusercontent.com/72084639/143461946-6f668611-f8d6-4663-bf63-2c2421c80deb.PNG)
 
 # INTERFAZ CON LA QUE BUSCAR LOGS A PARTIR DE LA FECHA
 
